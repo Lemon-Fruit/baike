@@ -1,0 +1,76 @@
+.header-wrapper {
+    background: #ffffff;
+    position: relative;
+}
+
+.pc-header .topbar {
+    margin-top: 0;
+    height: 32px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.pc-header .topbar .userbar {
+    position: static;
+    margin-top: 6px;
+    font-size: 13px;
+    float: right;
+}
+
+.pc-header .topbar .userbar li {
+    padding: 0 11px;
+    display: inline;
+}
+
+.pc-header .topbar .userbar li a {
+    color: #333333;
+}
+
+.pc-header .topbar .separator {
+    float: right;
+    height: 12px;
+    margin: 10px 13px 10px 25px;
+    border-right: 1px solid #ebebeb;
+}
+
+.userbar .userbar-n {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 12px;
+    font-family: arial;
+}
+
+ul {
+    padding-inline-start: 0px;
+    list-style: none;
+}
+
+.pc-header .topbar .userbar li:last-child {
+    padding-right: 20px;
+}
+
+.headTabBar {
+    overflow: hidden;
+    float: right;
+    border-bottom: 1px solid #f1f1f1;
+    height: 32px;
+    line-height: 32px;
+    font-size: 0;
+    font-family: arial;
+}
+
+.headTabBar a, .headTabBar .baike {
+    display: inline-block;
+    margin-left: 22px;
+    outline: 0;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    color: #333;
+    text-decoration: underline;
+}
+
+.headTabBar .baike {
+    text-decoration: none;
+    color: #666;
+}

@@ -1,0 +1,172 @@
+.header-wrapper .header {
+    height: 104px;
+    position: relative;
+}
+
+.searchbar-new.searchbar .search {
+    float: left;
+    padding: 11px 0 10px;
+}
+
+.searchbar-new.searchbar-large .logo-container {
+    padding: 25px 0 35px;
+}
+
+.header-wrapper .header .layout {
+    position: relative;
+    margin: 0 auto;
+    width: 1139px;
+}
+
+.searchbar-new.searchbar {
+    position: relative;
+    font-family: arial;
+}
+
+.pc-header .searchbar-main {
+    width: 913px;
+    margin: 0 auto;
+}
+
+.searchbar-new.searchbar .logo-container {
+    float: left;
+    padding: 25px 0 35px;
+    line-height: 1;
+}
+
+.searchbar-main .logo-container {
+    float: left;
+    padding: 26px 0 0;
+    line-height: 1;
+}
+
+.searchbar-new.searchbar-large .logo-container a.logo {
+    margin: 0 20px 0 0;
+}
+
+.searchbar-main .logo-container a.logo {
+    margin: 0 15px 0 0;
+    outline: 0;
+}
+
+.inblock {
+    display: inline-block;
+}
+
+a {
+    color: #338de6;
+    text-decoration: none;
+}
+
+.searchbar-new.searchbar .logo-container a.logo .baikelogo {
+    vertical-align: text-bottom;
+}
+
+.baike-logo {
+    display: inline-block;
+    font-size: 0;
+    line-height: 0;
+}
+
+.searchbar-new.searchbar-large .search {
+    padding: 32px 0;
+}
+
+.searchbar-main .search {
+    float: left;
+    padding: 13px 0 20px;
+}
+
+.searchbar-new.searchbar .search .form {
+    position: relative;
+}
+
+.searchbar-new.searchbar-large .search .form input {
+    width: 423px;
+    font-size: 16px;
+    height: 28px;
+    line-height: 28px;
+}
+
+.searchbar-new.searchbar .search .form input {
+    padding: 6px 8px 4px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #b8b8b8 #ccc #ccc #b8b8b8;
+    border-right: 0;
+    width: 518px;
+    height: 28px;
+    line-height: 22px;
+    font-size: 16px;
+    outline: 0;
+    font-family: arial;
+}
+
+.searchbar-main .search .form input {
+    padding: 6px 7px 4px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #b8b8b8 #ccc #ccc #b8b8b8;
+    border-right: 0;
+    width: 405px;
+    height: 22px;
+    line-height: 22px;
+    font-size: 16px;
+    outline: 0;
+}
+
+button, input, select {
+    vertical-align: middle;
+}
+
+button {
+    cursor: pointer;
+}
+
+input {
+    display: inline-block;
+    text-align: start;
+}
+
+.searchbar-new.searchbar-large .search .form button {
+    width: 104px;
+    font-size: 16px;
+    height: 40px;
+}
+
+.searchbar-new.searchbar .search .form button {
+    margin: 0 4px 0 0;
+    display: inline-block;
+    color: #fff;
+    letter-spacing: 1px;
+    background: #38f;
+    border: 1px solid #38f;
+    border-bottom: 1px solid #2d78f4;
+    outline: medium;
+    font-family: arial;
+}
+
+.searchbar-new.searchbar .search .form #searchLemma {
+    border: 1px solid #2e82ff;
+    color: #38f;
+    background-color: #fff;
+}
+
+.searchbar-new.searchbar-large .search .form .help {
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+.searchbar-new.searchbar .search .form .help {
+    margin-left: 10px;
+    font-size: 12px;
+    color: #333;
+    text-decoration: underline;
+}
+
+.layout .searchbar-large .search .form .help {
+    position: absolute;
+    width: 26px;
+    margin-left: 14px;
+    margin-top: 16px;
+}

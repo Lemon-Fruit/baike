@@ -1,0 +1,42 @@
+.bluefenge {
+    position: relative;
+}
+
+.navbar {
+    position: relative;
+    min-width: 900px;
+    height: 45px;
+}
+
+.navbar .navbar-bg {
+    position: absolute;
+    width: 100%;
+    height: 245px;
+    transition: .3s;
+}
+
+.bluebar {
+    height: 43px;
+    border-top: 1px solid #5895d5;
+    border-bottom: 1px solid #3b92e9;
+    background: #459df5;
+}
+
+dl dt {
+    text-align: center;
+    font-size: 16px;
+}
+
+.index{
+    position: relative;
+    float: left;
+}
+
+.index a{
+    color: #ffffff;
+}
+
+.bg{
+    height: 480px;
+    width: 100%;
+}

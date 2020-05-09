@@ -1,0 +1,15 @@
+.general {
+    min-width: 1139px;
+}
+
+body {
+    display: block;
+    color: #333333;
+    background-color: #ffffff;
+    line-height: 1.5;
+    margin: 0;
+}
+
+html {
+    font-size: 12px;
+}
