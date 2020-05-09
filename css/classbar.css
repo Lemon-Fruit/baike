@@ -15,28 +15,78 @@
     transition: .3s;
 }
 
-.bluebar {
+.navbar-bg-top {
+    position: relative;
     height: 43px;
     border-top: 1px solid #5895d5;
     border-bottom: 1px solid #3b92e9;
     background: #459df5;
 }
 
-dl dt {
-    text-align: center;
-    font-size: 16px;
+.navbar-bg .navbar-bg-top .blue-bar {
+    position: relative;
+    top: 0;
+    margin-left: 100px;
+    width: 100%;
 }
 
-.index{
+dl dt {
+    height: 43px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+dl dd {
+    padding: 11px 0 10px;
+    height: 180px;
+    border-left: 1px solid #3a6fa2;
+}
+
+dd {
+    margin-inline-start: 0;
+}
+
+.index, .cat, .second-know, .special, .user, .cooperation {
     position: relative;
     float: left;
 }
 
-.index a{
+.index a, .cat a, .second-know a, .special a, .user a, .cooperation a {
     color: #ffffff;
 }
 
-.bg{
+.index dd, .cat dd, .user dd {
+    width: 103px;
+}
+
+.bg {
     height: 480px;
     width: 100%;
+}
+
+.index dt, .cat dt, .user dt {
+    width: 102px;
+}
+
+.second-know dt, .special dt, .cooperation dt {
+    width: 134px;
+}
+
+dl dd div {
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.cat dd div {
+    display: inline;
+    float: left;
+    margin-left: 15px;
+}
+
+dl dd div a {
+    padding-bottom: 3px;
+    color: #a2c9f0;
 }
