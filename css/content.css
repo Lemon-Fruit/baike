@@ -5,4 +5,58 @@
 
 #kepu {
     width: 100%;
+    z-index: -1;
+}
+
+.content-wrapper {
+    margin: 20px 0 0;
+}
+
+.content-wrapper .content {
+    margin: 0 auto;
+    background: #fff;
+    width: 1137px;
+    border: 1px solid #e5e5e5;
+}
+
+.content-wrapper .content .main-content {
+    width: 790px;
+    padding: 29px 29px 0;
+    float: left;
+    position: relative;
+}
+
+.catalog {
+    margin: 35px 0;
+}
+
+.catalog .lemma-catalog {
+    float: left;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    background: #fbfbfb;
+    font-family: arial, tahoma, 'Microsoft Yahei', '\5b8b\4f53', sans-serif;
+}
+
+.lemma-catalog .block-title {
+    float: left;
+    margin: 22px 0 0 20px;
+    width: 62px;
+    height: 48px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 48px;
+    font-weight: 400;
+}
+
+.lemma-catalog .catalog-list {
+    display: block;
+    float: left;
+    border-left: 1px solid #ebebeb;
+    width: 706px;
+    position: relative;
+    overflow: hidden;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    background-color: #fff;
 }
