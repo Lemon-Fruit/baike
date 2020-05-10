@@ -38,13 +38,14 @@
     margin-top: -4px;
 }
 
-#qzone, #sina, #qq{
+#qzone, #sina, #qq {
     display: block;
     height: 25px;
     width: 25px;
     padding: 10px 10px 0;
     cursor: pointer;
 }
+
 #wechat {
     display: block;
     height: 25px;

@@ -3,6 +3,10 @@
     width: 100%;
 }
 
+ul, ol, li {
+    list-style: none;
+}
+
 #kepu {
     width: 100%;
     z-index: -1;
@@ -38,6 +42,11 @@
     font-family: arial, tahoma, 'Microsoft Yahei', '\5b8b\4f53', sans-serif;
 }
 
+.lemma-catalog .column-3 {
+    width: auto;
+
+}
+
 .lemma-catalog .block-title {
     float: left;
     margin: 22px 0 0 20px;
@@ -59,4 +68,41 @@
     padding-top: 15px;
     padding-bottom: 20px;
     background-color: #fff;
+}
+
+.lemma-catalog .catalog-list ol:first-child {
+    border-left: 0;
+}
+
+.lemma-catalog .column-3 ol {
+    width: 175.5px;
+    display: inline-table;/*目录导航 横向排版*/
+}
+
+.catalog-list ol li.level1 .index {
+    display: inline-block;
+    width: 18px;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 8px;
+    vertical-align: top;
+    text-align: right;
+    color: #63a0df;
+}
+
+.catalog-list ol li.level1 .text {
+    display: -moz-inline-box;
+    -moz-box-orient: vertical;
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #fff;
+    vertical-align: top;
+    width: 120px;
+}
+
+.catalog-list ol li.level1 {
+    line-height: 28px;
 }
