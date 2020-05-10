@@ -37,14 +37,36 @@ dl dt {
     cursor: pointer;
 }
 
+dd {
+    margin-inline-start: 0;
+}
+
 dl dd {
     padding: 11px 0 10px;
     height: 180px;
-    border-left: 1px solid #3a6fa2;
 }
 
-dd {
-    margin-inline-start: 0;
+dl dt:hover~dd div {
+    display: inherit;
+    background-color: #459df5;
+}
+
+dl dd div a {
+    padding-bottom: 3px;
+    color: #a2c9f0;
+}
+
+dl dd div {
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+    display: none;
+}
+
+.cat dd div {
+    display: none;
+    margin-left: 15px;
 }
 
 .index, .cat, .second-know, .special, .user, .cooperation {
@@ -60,10 +82,7 @@ dd {
     width: 103px;
 }
 
-.bg {
-    height: 480px;
-    width: 100%;
-}
+
 
 .index dt, .cat dt, .user dt {
     width: 102px;
@@ -71,22 +90,4 @@ dd {
 
 .second-know dt, .special dt, .cooperation dt {
     width: 134px;
-}
-
-dl dd div {
-    height: 30px;
-    line-height: 30px;
-    text-align: center;
-    font-size: 14px;
-}
-
-.cat dd div {
-    display: inline;
-    float: left;
-    margin-left: 15px;
-}
-
-dl dd div a {
-    padding-bottom: 3px;
-    color: #a2c9f0;
 }

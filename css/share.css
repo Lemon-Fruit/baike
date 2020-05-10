@@ -11,6 +11,7 @@
 }
 
 .title {
+    cursor: pointer;
     font-size: 14px;
     display: block;
     height: 40px;
@@ -31,4 +32,23 @@
     border-width: 4px;
     border-style: solid;
     border-color: #6fb6fd transparent transparent;
+}
+
+.qzone {
+    margin-top: -4px;
+}
+
+#qzone, #sina, #qq{
+    display: block;
+    height: 25px;
+    width: 25px;
+    padding: 10px 10px 0;
+    cursor: pointer;
+}
+#wechat {
+    display: block;
+    height: 25px;
+    width: 27px;
+    padding: 10px 10px 0;
+    cursor: pointer;
 }
