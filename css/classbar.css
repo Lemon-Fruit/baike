@@ -26,7 +26,7 @@
 .navbar-bg .navbar-bg-top .blue-bar {
     position: relative;
     top: 0;
-    margin-left: 100px;
+    left: 5%;
     width: 100%;
 }
 
@@ -81,8 +81,6 @@ dl dd div {
 .index dd, .cat dd, .user dd {
     width: 103px;
 }
-
-
 
 .index dt, .cat dt, .user dt {
     width: 102px;

@@ -8,7 +8,7 @@ body {
     background-color: #ffffff;
     line-height: 1.5;
     margin: 0;
-    overflow-x: hidden;
+    background-color: #f0e8e8;
 }
 
 html {

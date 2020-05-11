@@ -1,6 +1,7 @@
 .bg {
     height: 480px;
     width: 100%;
+    background: url(../img/科普中国.png) no-repeat center 0;
 }
 
 ul, ol, li {
@@ -9,7 +10,6 @@ ul, ol, li {
 
 #kepu {
     width: 100%;
-    z-index: -1;
 }
 
 .content-wrapper {
@@ -20,6 +20,7 @@ ul, ol, li {
     margin: 0 auto;
     background: #fff;
     width: 1137px;
+    height: 2150px;
     border: 1px solid #e5e5e5;
 }
 
@@ -28,6 +29,40 @@ ul, ol, li {
     padding: 29px 29px 0;
     float: left;
     position: relative;
+}
+
+.guangzi {
+    margin: 0 0 10px;
+    width: 700px;
+    font-family: arial, tahoma, 'Microsoft Yahei', '\5b8b\4f53', sans-serif;
+}
+
+.guangzi dd {
+    height: auto;
+}
+
+.guangzi .g-title {
+    margin: 0 0 5px;
+    line-height: 39px;
+}
+
+.guangzi .g-title h1 {
+    padding: 20px;
+    margin: 10px 10px 0 0;
+    display: inline;
+    font-size: 34px;
+    line-height: 1.15;
+    font-weight: 400;
+}
+
+.summary {
+    clear: both;
+    font-size: 14px;
+    word-wrap: break-word;
+    color: #333;
+    margin-bottom: 15px;
+    text-indent: 2em;
+    line-height: 24px;
 }
 
 .catalog {
@@ -44,7 +79,6 @@ ul, ol, li {
 
 .lemma-catalog .column-3 {
     width: auto;
-
 }
 
 .lemma-catalog .block-title {
@@ -65,8 +99,6 @@ ul, ol, li {
     width: 706px;
     position: relative;
     overflow: hidden;
-    padding-top: 15px;
-    padding-bottom: 20px;
     background-color: #fff;
 }
 
@@ -76,7 +108,8 @@ ul, ol, li {
 
 .lemma-catalog .column-3 ol {
     width: 175.5px;
-    display: inline-table;/*目录导航 横向排版*/
+    display: inline-table;
+    /*目录导航 横向排版*/
 }
 
 .catalog-list ol li.level1 .index {
@@ -91,11 +124,7 @@ ul, ol, li {
 }
 
 .catalog-list ol li.level1 .text {
-    display: -moz-inline-box;
-    -moz-box-orient: vertical;
     display: inline-block;
-    *zoom: 1;
-    *display: inline;
     font-size: 16px;
     font-weight: 500;
     background-color: #fff;
@@ -106,3 +135,191 @@ ul, ol, li {
 .catalog-list ol li.level1 {
     line-height: 28px;
 }
+
+.expert {
+    width: 47px;
+    height: 89px;
+    position: absolute;
+    top: 30px;
+    left: -47px;
+    background: url(../img/专家.png) no-repeat 0 0;
+}
+
+.v-image {
+    filter: alpha(opacity=0);
+    opacity: 0;
+    float: right;
+    margin-right: 112px;
+    margin-top: 63px;
+    width: 197px;
+    height: 112px;
+}
+
+.v-image li {
+    width: 195px;
+    border: 1px solid #3b8cfb;
+}
+
+.v-image li a {
+    overflow: hidden;
+    position: relative;
+    display: block;
+    width: 195px;
+    height: 110px;
+    text-decoration: none;
+}
+
+.intro {
+    display: block;
+    overflow: hidden;
+    font-size: 20px;
+    border-left: 12px solid #4F9CEE;
+    line-height: 24px;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 35px 0 15px -30px;
+    position: relative;
+}
+
+.title-text {
+    float: left;
+    display: block;
+    padding: 0 8px 0 18px;
+    line-height: 24px;
+    font-size: 22px;
+    font-weight: 400;
+    color: #000;
+    background: #fff;
+}
+
+p {
+    font-size: 14px;
+    word-wrap: break-word;
+    color: #333;
+    margin-bottom: 15px;
+    text-indent: 2em;
+    line-height: 24px;
+    zoom: 1;
+}
+
+.cankao {
+    clear: both;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.ck-title {
+    text-align: start;
+    height: 45px;
+    font-size: 19px;
+    line-height: 45px;
+    font-weight: 200;
+    font-family: 'Microsoft YaHei', sans-serif;
+    border-bottom: 2px solid #ccc;
+}
+
+.ck-dd {
+    overflow: hidden;
+    height: auto;
+}
+
+.ck-list {
+    padding: 0;
+    margin: 0
+}
+
+.ck-list li {
+    color: #aaa;
+    line-height: 20px;
+    margin-top: 9px;
+    width: 100%;
+    font-size: 12px;
+}
+
+.ck-list li a {
+    color: #666666;
+    text-decoration: none;
+}
+
+.ck-list li a:hover {
+    text-decoration: underline;
+}
+
+.side-content {
+    position: relative;
+    float: left;
+    padding-top: 29px;
+    width: 270px;
+}
+
+.summary-pic img {
+    margin: 0 auto;
+    display: block;
+}
+
+.professional-header {
+    background: #f4f9fd url(../img/long-w.png) repeat-x left bottom;
+    padding: 15px 15px 15px 20px;
+}
+
+.professional-header div {
+    padding-left: 60px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    height: 50px;
+}
+
+.professional-header p {
+    color: #7f8d9b;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.professional-content {
+    padding: 15px 13px;
+}
+
+.professional-list {
+    overflow: hidden;
+    position: relative;
+}
+
+.professional-list ul {
+    float: left;
+    width: 242px;
+}
+
+.pro-line {
+    width: 4px;
+    height: 33px;
+    overflow: hidden;
+    background: #a1ccf7;
+    border-radius: 2px;
+}
+
+.pro-line, .pro-content {
+    float: left;
+    display: inline;
+}
+
+.professional-title {
+    display: table;
+}
+
+.professional-title h3 {
+    float: left;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.professional-list ul {
+    float: left;
+    width: 242px;
+}
+
+.professional-list li {
+    padding: 12px 0;
+}
+
